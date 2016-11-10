@@ -1,0 +1,20 @@
+{
+  "name": "novustacos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenessawhite/novustacos.git"
+  },
+  "keywords": [],
+  "author": "Jenessa White <jenessaw31@gmail.com> (https://medium.com/@jenessawhite)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jenessawhite/novustacos/issues"
+  },
+  "homepage": "https://github.com/jenessawhite/novustacos#readme"
+}
