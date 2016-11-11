@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Blern';
+	src: url('Blern.eot');
+	src: url('Blern.eot?#iefix') format('embedded-opentype'),
+		url('Blern.woff2') format('woff2'),
+		url('Blern.woff') format('woff'),
+		url('Blern.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body {
+  font-family: 'Blern',sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
