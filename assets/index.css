@@ -15,4 +15,52 @@ html, body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+p {
+  font-family: sans-serif;
+  margin: 0 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+
+.section-heading {
+  font-size: 2.5em;
+  color: #2BA1A5;
+  border-bottom: 2px black solid;
+  text-align: center;
+}
+
+.specials-heading {
+  color: #B04436;
+  text-align: center;
+  font-style: italic;
+}
+
+.googlemaps {
+  display: flex;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.findus-text {
+  text-align: center;
+}
+
+footer {
+display: flex;
+
+  margin-top: 3rem;
+  background-color: #2f2f2f;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-style: italic;
+  color: #2BA1A5;
 }
