@@ -38,7 +38,7 @@ html, body {
 
 .nav-link {
 	list-style: none;
-	font-size: 19px;
+	font-size: 22px;
 	border-right: 1px solid white;
 	padding-right: .5rem;
 	margin: 0;
@@ -88,6 +88,10 @@ p {
   margin: 0 1rem;
 }
 
+.about-text{
+	line-height: 24px;
+	padding-bottom: 1rem;
+}
 .content {
   display: flex;
   flex-direction: column;
@@ -107,6 +111,12 @@ p {
   font-style: italic;
 }
 
+.findus-taco {
+  fill: #B04436;
+  max-width: 300px;
+  max-height: 300px;
+}
+
 .googlemaps {
   display: flex;
   max-width: 375px;
@@ -118,13 +128,27 @@ p {
   text-align: center;
 }
 
+.socialsbox {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.fa.fa-facebook {
+  font-size: 40px;
+  color: #1560fb;
+}
+
 footer {
 	display: flex;
-  margin-top: 3rem;
+  margin-top: 2rem;
+	padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #2f2f2f;
+  opacity: .85;
   width: 100%;
-  height: 50px;
-  text-align: center;
+  height: 25px;
+  justify-content: center;
   font-style: italic;
   color: #2BA1A5;
 }
