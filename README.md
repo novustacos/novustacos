@@ -26,7 +26,7 @@ Just to name a few...
 
 ####_What does it do?_
 
-So, we wanted to make a very colorful, very picture-filled webpage that showed exactly what our restaurant is all about. We went with many different tones of red, blue, yellow, and green to welcome the user to a fun and enjoyable webpage.
+So, we wanted to make a very colorful, very picture-filled webpage that showed exactly what our restaurant is all about. We went with many different tones of red, blue, yellow, and green to welcome the user to a fun and enjoyable space.
 
 The mobile site will be simple and clean. We wanted clean lines, a very straight-forward column-inspired layout that explained to the user where they were on the page. The information they want will be easily accessible.
 
