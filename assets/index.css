@@ -16,3 +16,64 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+.nav-background img {
+	position: absolute;
+	z-index: -1000000;
+	top: 0;
+	left: 0;
+}
+
+/*.nav-box {
+	background-color: #584c4c;
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+
+
+}*/
+
+.spacer {
+	padding: 0;
+	margin-top: .25rem;
+	list-style: none;
+	color: white;
+	font-size: 36px;
+	line-height: 16px;
+	text-align: center;
+	display: flex;
+	align-self: auto;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+	background-color: #584c4c;
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+
+}
+
+.nav-link {
+	list-style: none;
+}
+
+.link-border {
+	border-right: 2px solid white;
+}
+
+.nav-link a {
+	display: inline-block;
+	position:relative;
+	padding: 1rem;
+	text-decoration: none;
+	color: #2ba1a5;
+	font-weight: bold;
+	text-align: center;
+}
+
+.nav-link a:hover {
+	color: #56e4e9;
+}
