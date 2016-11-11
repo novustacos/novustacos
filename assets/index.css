@@ -38,7 +38,7 @@ html, body {
 
 .nav-link {
 	list-style: none;
-	font-size: 19px;
+	font-size: 22px;
 	border-right: 1px solid white;
 	padding-right: .5rem;
 	margin: 0;
@@ -88,6 +88,10 @@ p {
   margin: 0 1rem;
 }
 
+.about-text{
+	line-height: 24px;
+	padding-bottom: 1rem;
+}
 .content {
   display: flex;
   flex-direction: column;
@@ -120,11 +124,11 @@ p {
 
 footer {
 	display: flex;
-  margin-top: 3rem;
+	padding-top: 2rem;
   background-color: #2f2f2f;
   width: 100%;
   height: 50px;
-  text-align: center;
+  justify-content: center;
   font-style: italic;
   color: #2BA1A5;
 }
