@@ -111,6 +111,12 @@ p {
   font-style: italic;
 }
 
+.findus-taco {
+  fill: #B04436;
+  max-width: 300px;
+  max-height: 300px;
+}
+
 .googlemaps {
   display: flex;
   max-width: 375px;
@@ -122,12 +128,26 @@ p {
   text-align: center;
 }
 
+.socialsbox {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.fa.fa-facebook {
+  font-size: 40px;
+  color: #1560fb;
+}
+
 footer {
 	display: flex;
-	padding-top: 2rem;
+  margin-top: 2rem;
+	padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #2f2f2f;
+  opacity: .85;
   width: 100%;
-  height: 50px;
+  height: 25px;
   justify-content: center;
   font-style: italic;
   color: #2BA1A5;
