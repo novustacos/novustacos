@@ -79,10 +79,6 @@ html, body {
 
 }
 
-.content {
-
-}
-
 p {
   font-family: sans-serif;
   margin: 0 1rem;
@@ -104,6 +100,80 @@ p {
   border-bottom: 2px black solid;
   text-align: center;
 }
+
+.showMenu-food {
+  font-size: 2em;
+  margin: 1rem;
+}
+
+.showMenu-food:hover {
+  font-size: 2em;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.showMenu-food::before {
+  content: '\f0f5'; /* fa-drinkware */
+  font-family: 'FontAwesome';
+  font-size: 1em;
+  color: #2BA1A5;
+}
+
+.menu-food-list {
+  list-style: none;
+  display: none;
+  margin-bottom: 1rem;
+}
+
+.menu-food-list li {
+  font-family: 'Patrick Hand', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.menu-food-item::before {
+  content: '\274D'; /*shadowed circle*/
+  font-size: 0.8em;
+  margin-left: -1.5em;
+  color: #2BA1A5;
+}
+
+.showMenu-drink {
+  font-size: 2em;
+  margin: 1rem;
+}
+
+.showMenu-drink:hover {
+  font-size: 2em;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.showMenu-drink::before {
+  content: '\f000'; /* fa-drinkware */
+  font-family: 'FontAwesome';
+  font-size: 1em;
+  color: #2BA1A5;
+}
+
+.menu-drink-list {
+  list-style: none;
+  display: none;
+  margin-bottom: 1rem;
+}
+
+.menu-drink-list li{
+  font-family: 'Patrick Hand', sans-serif;
+  margin-bottom: 1rem;
+  text-indent: 1em;
+}
+
+/*.menu-drink-item::before {
+  content: '\f000'; /* fa-drinkware */
+  font-family: 'FontAwesome';
+  font-size: 0.8em;
+  margin-left: -1.5em;
+  color: #2BA1A5;
+}*/
 
 .specials-heading {
   color: #B04436;
