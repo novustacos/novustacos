@@ -45,6 +45,10 @@ html, body {
   text-align: center;
 }
 
+.nav-findus {
+	border:none;
+}
+
 .nav-about {
 	font-family:'Signika:300', sans-serif;
 }
@@ -229,6 +233,9 @@ color: #2BA1A5;
 	margin-top: 2rem;
 }
 
+.findushours {
+	color:#2ba1a5;
+}
 .socialsbox {
 	display: flex;
   justify-content:space-around;
