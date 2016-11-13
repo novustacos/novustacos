@@ -33,22 +33,17 @@ html, body {
 	position: fixed;
 	text-align: justify;
 	opacity: .85;
-	padding-left: 0;
+	padding: 0;
 }
 
 .nav-link {
 	list-style: none;
 	font-size: 22px;
-	border-right: 1px solid white;
 	padding-right: .5rem;
 	margin: 0;
   align-self: center;
   text-align: center;
 }
-
-/*.nav-findus {
-	border:none;
-}*/
 
 .nav-about {
 	font-family:'Signika:300', sans-serif;
@@ -56,7 +51,7 @@ html, body {
 
 .nav-menu {
 	font-family:'Times New Roman', sans-serif;
-	font-size: 19px;
+	font-size: 22px;
 }
 
 .nav-specials {
@@ -64,7 +59,8 @@ html, body {
 }
 
 .link-border {
-	margin: 0;
+	margin: 1rem 0;
+  border-right: 1px solid white;
 }
 
 .nav-link a {
@@ -89,6 +85,7 @@ p {
 	line-height: 24px;
 	padding-bottom: 1rem;
 }
+
 .content {
   display: flex;
   flex-direction: column;
@@ -285,4 +282,26 @@ footer {
   justify-content: center;
   font-style: italic;
   color: #2BA1A5;
+}
+
+
+@media (min-width: 700px) {
+
+  .sidebar {
+    position:absolute;
+    top:0; left:0;
+    width:200px;
+    height: 100%;
+    background:#2f2f2f;
+    opacity: 0.85;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    padding:0 0 0 202px;
+  }
+
+
 }
