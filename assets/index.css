@@ -10,9 +10,312 @@
 }
 
 html, body {
+
   font-family: 'Blern',sans-serif;
+=======
+  font-family: 'Blern', sans-serif;
+
   font-size: 16px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+=======
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.nav-background img {
+	z-index: -10;
+	width: 100%;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: space-around;
+	background-color: #2f2f2f;
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	position: fixed;
+	text-align: justify;
+	opacity: .85;
+	padding: 0;
+}
+
+.nav-link {
+	list-style: none;
+	font-size: 22px;
+	padding-right: .5rem;
+	margin: 0;
+  align-self: center;
+  text-align: center;
+}
+
+.nav-findus {
+	border:none;
+}
+
+.nav-about {
+	font-family:'Signika:300', sans-serif;
+}
+
+.nav-menu {
+	font-family:'Times New Roman', sans-serif;
+	font-size: 22px;
+}
+
+.nav-specials {
+	font-family: 'Patrick Hand', sans-serif;
+}
+
+.link-border {
+	margin: 1rem 0;
+  border-right: 1px solid white;
+}
+
+.nav-link a {
+	position:relative;
+	padding: .5rem;
+	text-decoration: none;
+	color: #2ba1a5;
+	font-weight: bold;
+}
+
+.nav-link a:hover {
+	color: #56e4e9;
+
+}
+
+p {
+  font-family: 'Patrick Hand', sans-serif;
+  margin: 0 1rem;
+}
+
+.about-text{
+	line-height: 24px;
+	padding-bottom: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+
+.section-heading {
+  font-size: 2.5em;
+  color: #2BA1A5;
+  border-bottom: 2px black solid;
+  text-align: center;
+}
+
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.showMenu-food {
+  font-size: 2em;
+  margin: 1rem;
+}
+
+.showMenu-food:hover {
+  font-size: 2em;
+  margin: 1rem;
+  cursor: pointer;
+  color: #B04436;
+  font-style: italic;
+}
+
+.showMenu-food::before {
+  content: '\f0f5'; /* fa-drinkware */
+  font-family: 'FontAwesome';
+  font-size: 1em;
+  color: #2BA1A5;
+  padding-right: 0.5rem;
+}
+
+.menu-food-list {
+  list-style: none;
+  display: none;
+  margin-bottom: 1rem;
+}
+
+.menu-food-list li {
+  font-family: 'Patrick Hand', sans-serif;
+  text-indent: 1em;
+  margin-bottom: 1rem;
+}
+
+.menu-food-item::before {
+  content: '\274D'; /*shadowed circle*/
+  font-size: 0.8em;
+  margin-left: -1.5em;
+  padding-right: 0.5rem;
+  color: #2BA1A5;
+}
+
+.menu-drink {
+  display: flex;
+  flex-direction: column;
+}
+
+.showMenu-drink {
+  font-size: 2em;
+  margin: 1rem;
+}
+
+.showMenu-drink:hover {
+  font-size: 2em;
+  margin: 1rem;
+  cursor: pointer;
+  color: #B04436;
+  font-style: italic;
+}
+
+.showMenu-drink::before {
+  content: '\f000'; /* fa-drinkware */
+  font-family: 'FontAwesome';
+  font-size: 1em;
+  color: #2BA1A5;
+  padding-right: 0.5rem;
+}
+
+.menu-drink-list {
+  list-style: none;
+  display: none;
+  margin-bottom: 1rem;
+}
+
+.menu-drink-list li{
+  font-family: 'Patrick Hand', sans-serif;
+  margin-bottom: 1rem;
+  text-indent: 1em;
+}
+
+.menu-drink-item::before {
+content: '\274D'; /*shadowed circle*/
+font-size: 0.8em;
+margin-left: -1.5em;
+padding-right: 0.5rem;
+color: #2BA1A5;
+}
+
+.menu-drink-photo {
+  display: block;
+  margin: 1rem auto;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.menu-text {
+  margin-top: 1rem;
+}
+
+.specials-heading {
+  color: #B04436;
+  text-align: center;
+  font-style: italic;
+}
+
+.findus-taco {
+  fill: #B04436;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.googlemaps {
+  display: flex;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.findus-text {
+  text-align: center;
+}
+
+.findus-text h4 {
+	margin-top: 2rem;
+}
+
+.findushours {
+	color:#2ba1a5;
+}
+.socialsbox {
+	display: flex;
+  justify-content:space-around;
+	align-content: center;
+  margin-top: 3rem;
+}
+
+.fa.fa-facebook {
+  font-size: 35px;
+  color: #3b5998;
+	text-decoration:none;
+	padding: 1rem;
+
+}
+
+.fa.fa-instagram {
+	padding: 1rem;
+  font-size: 35px;
+  color: #9b6954;
+	text-decoration:none;
+
+}
+
+.fa.fa-twitter {
+	padding: 1rem;
+  font-size: 35px;
+  color: #0084b4;
+	text-decoration:none;
+
+}
+
+.logo-container {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.findus-taco {
+	max-height: 200px;
+}
+
+
+footer {
+	display: flex;
+  margin-top: 2rem;
+	padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #2f2f2f;
+  opacity: .85;
+  width: 100%;
+  height: 25px;
+  justify-content: center;
+  font-style: italic;
+  color: #2BA1A5;
+}
+
+
+@media (min-width: 700px) {
+
+  .sidebar {
+    position:absolute;
+    top:0; left:0;
+    width:200px;
+    height: 100%;
+    background:#2f2f2f;
+    opacity: 0.85;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    padding:0 0 0 202px;
+  }
+
+
+>>>>>>> mobile
 }
