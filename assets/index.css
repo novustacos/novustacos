@@ -301,6 +301,28 @@ color: #2BA1A5;
 }
 
 @media (min-width: 700px) {
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    padding:0 0 0 205px;
+  }
+
+  .sidebar {
+    /*position: fixed;*/
+    top: 0; left: 0;
+    width:200px;
+    height: 100%;
+    background:#2f2f2f;
+    opacity: 0.85;
+    overflow-x: hidden;
+  }
+
   .nav-list {
     display: none;
   }
@@ -345,23 +367,6 @@ color: #2BA1A5;
 
   }
 
-  .sidebar {
-    position: fixed;
-    top: 0; left: 0;
-    width:200px;
-    height: 100%;
-    background:#2f2f2f;
-    opacity: 0.85;
-    overflow-x: hidden;
-  }
-
-  .content {
-    display: flex;
-    flex-direction: column;
-    margin: 0 1rem;
-    padding:0 0 0 205px;
-  }
-
   .footer {
   	display: flex;
     bottom: 0;
@@ -378,7 +383,6 @@ color: #2BA1A5;
     font-style: italic;
     color: #2BA1A5;
   }
-
 
 	.special_container {
 		display: flex;
