@@ -279,7 +279,7 @@ color: #2BA1A5;
 }
 
 
-footer {
+.footer {
 	display: flex;
   margin-top: 2rem;
 	padding-top: 1rem;
@@ -294,7 +294,7 @@ footer {
 }
 
 
-@@media (max-width: 699px) {
+@media (max-width: 699px) {
   .largenav, .sidebar, .nav-list_large, .sidebar-photos {
     display: none;
   }
