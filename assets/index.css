@@ -311,4 +311,17 @@ footer {
   }
 
 
+	.special_container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0;
+		padding: 0;
+	}
+
+	.special_wrapper {
+		max-width: 50%;
+	}
+
+
 }
