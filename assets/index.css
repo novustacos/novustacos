@@ -198,16 +198,50 @@ p {
   text-align: center;
 }
 
+.findus-text h4 {
+	margin-top: 2rem;
+}
+
 .socialsbox {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 1rem;
+	display: flex;
+  justify-content:space-around;
+	align-content: center;
+  margin-top: 3rem;
 }
 
 .fa.fa-facebook {
-  font-size: 40px;
-  color: #1560fb;
+  font-size: 50px;
+  color: #3b5998;
+	text-decoration:none;
+	padding: 1rem;
+
 }
+
+.fa.fa-instagram {
+	padding: 1rem;
+  font-size: 50px;
+  color: #9b6954;
+	text-decoration:none;
+
+}
+
+.fa.fa-twitter {
+	padding: 1rem;
+  font-size: 50px;
+  color: #0084b4;
+	text-decoration:none;
+
+}
+
+.logo-container {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.findus-taco {
+	max-height: 200px;
+}
+
 
 footer {
 	display: flex;
