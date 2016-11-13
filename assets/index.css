@@ -305,19 +305,21 @@ color: #2BA1A5;
     display: flex;
     flex-wrap: nowrap;
   }
-  
+
   .content {
+    align-self: flex-end;
+    flex-grow: 4;
     display: flex;
     flex-direction: column;
     margin: 0 1rem;
-    padding:0 0 0 205px;
+    padding:0;
   }
 
   .sidebar {
-    /*position: fixed;*/
+    align-self: flex-start;
     top: 0; left: 0;
-    width:200px;
-    height: 100%;
+    flex-grow: 1
+   /*height: 100%;*/
     background:#2f2f2f;
     opacity: 0.85;
     overflow-x: hidden;
