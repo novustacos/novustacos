@@ -305,7 +305,7 @@ color: #2BA1A5;
     display: flex;
     flex-wrap: nowrap;
   }
-  
+
   .content {
     display: flex;
     flex-direction: column;
