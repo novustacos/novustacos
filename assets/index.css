@@ -314,7 +314,7 @@ color: #2BA1A5;
 
   .content {
     align-self: flex-end;
-    flex-grow: 4;
+    flex-grow: 8;
     display: flex;
     flex-direction: column;
     margin: 0 1rem;
@@ -324,7 +324,7 @@ color: #2BA1A5;
   .sidebar {
     align-self: flex-start;
     top: 0; left: 0;
-    flex-grow: 1
+    flex-grow: 0;
    /*height: 100%;*/
     background:#2f2f2f;
     opacity: 0.85;
@@ -403,6 +403,4 @@ color: #2BA1A5;
 		max-width: 50%;
 	}
 
-
->>>>>>> mobile
 }
