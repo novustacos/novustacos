@@ -231,7 +231,7 @@ color: #2BA1A5;
 }
 .socialsbox {
 	display: flex;
-  justify-content:space-around;
+  justify-content:center;
 	align-content: center;
   margin-top: 3rem;
 }
@@ -240,12 +240,12 @@ color: #2BA1A5;
   font-size: 35px;
   color: #3b5998;
 	text-decoration:none;
-	padding: 1rem;
+	padding: 2rem;
 
 }
 
 .fa.fa-instagram {
-	padding: 1rem;
+  padding: 2rem;
   font-size: 35px;
   color: #9b6954;
 	text-decoration:none;
@@ -253,7 +253,7 @@ color: #2BA1A5;
 }
 
 .fa.fa-twitter {
-	padding: 1rem;
+  padding: 2rem;
   font-size: 35px;
   color: #0084b4;
 	text-decoration:none;
@@ -261,7 +261,6 @@ color: #2BA1A5;
 }
 
 .logo-container {
-	margin-top: 3rem;
 	text-align: center;
 }
 
@@ -285,13 +284,13 @@ color: #2BA1A5;
 }
 
 
-@media (max-width: 699px) {
+@media (max-width: 732px) {
   .largenav, .sidebar, .nav-list_large, .sidebar-photos {
     display: none;
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 733px) {
   body {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -325,13 +324,6 @@ color: #2BA1A5;
     display: none;
   }
 
-  /*.nav-background {
-  	z-index: -10;
-  	width: 100%;
-    margin: 0 1rem;
-    padding:0 0 0 205px;
-  }*/
-
   .nav-background img {
   	z-index: -10;
   	width: 100%;
@@ -342,15 +334,14 @@ color: #2BA1A5;
     flex-direction: column;
     z-index: 999;
     position: fixed;
-    /*height: 250px;*/
     background-color: #2f2f2f;
     opacity: .85;
     border-radius: 10px;
-    margin-left: 1rem;
+    margin-left: 2rem;
     justify-content: center;
     list-style: none;
 		text-align: center;
-		padding: 2rem;
+		padding: 1rem;
   }
 
   .nav-list-taco {
@@ -366,10 +357,10 @@ color: #2BA1A5;
     color: #fafafa;
   }
 
-  .nav-link_large:hover{
-    color: #2f2f2f;
-    opacity: .85;
-    transition-duration: .5s;
+  .link-large_hover:hover{
+    color: #fafafa;
+    /*opacity: .85;*/
+    transition-duration: .2s;
   }
 
   .link-border_large{
@@ -378,6 +369,18 @@ color: #2BA1A5;
 		text-decoration: none;
 
   }
+
+	.special_container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0;
+		padding: 0;
+	}
+
+	.special_wrapper {
+		max-width: 50%;
+	}
 
   .footer {
   	display: flex;
@@ -395,14 +398,4 @@ color: #2BA1A5;
     color: #2BA1A5;
   }
 
-	.special_container {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		margin: 0;
-		padding: 0;
-	}
-
-	.special_wrapper {
-		max-width: 50%;
-	}
+}
