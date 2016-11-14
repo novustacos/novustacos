@@ -314,6 +314,7 @@ color: #2BA1A5;
     /*opacity: 0.85;*/
     overflow-x: hidden;
     width: 250px;
+    overflow-y: hidden;
   }
 
 	.sidebar img {
@@ -342,6 +343,7 @@ color: #2BA1A5;
     list-style: none;
 		text-align: center;
 		padding: 1rem;
+    align-self: stretch;
   }
 
   .nav-list-taco {

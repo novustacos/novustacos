@@ -1,7 +1,9 @@
 
 $('.showMenu-food').click(
 	function (event) {
-    	$(this).next('.menu-food-list').slideToggle();
+    	$(this).next('.menu-food-list').slideToggle(function () {
+    	  alert ('hello')
+    	});
 	}
 );
 
@@ -10,17 +12,3 @@ $('.showMenu-drink').click(
     	$(this).next('.menu-drink-list').slideToggle();
 	}
 );
-// 
-// $(document).ready(function(){
-//   $('.your-class').slick({
-//     setting-name: setting-value
-//   });
-// });
-//
-// $('.fade').slick({
-//   dots: true,
-//   infinite: true,
-//   speed: 500,
-//   fade: true,
-//   cssEase: 'linear'
-// });
