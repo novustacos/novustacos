@@ -313,7 +313,7 @@ color: #2BA1A5;
   }
 
   .content {
-    align-self: flex-end;
+    align-self: flex-start;;
     display: flex;
     flex-direction: column;
     margin: 0 1rem;
