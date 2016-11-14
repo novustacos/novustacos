@@ -207,6 +207,9 @@ color: #2BA1A5;
   max-height: 300px;
 }
 
+.location-map iframe {
+  pointer-events: none;
+}
 .googlemaps {
   display: flex;
   max-width: 375px;

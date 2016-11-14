@@ -10,7 +10,11 @@ $('.showMenu-drink').click(
     	$(this).next('.menu-drink-list').slideToggle();
 	}
 );
-// 
+
+$('.location-map').click(function () {
+  $('.location-map iframe').css("pointer-events", "auto");
+});
+//
 // $(document).ready(function(){
 //   $('.your-class').slick({
 //     setting-name: setting-value
