@@ -11,18 +11,19 @@
 
 html, body {
 
-  font-family: 'Blern',sans-serif;
-=======
   font-family: 'Blern', sans-serif;
-
-  font-size: 16px;
-  letter-spacing: 0.5px;
+  font-size: 18px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
-=======
   -webkit-font-smoothing: subpixel-antialiased;
+}
+
+p {
+  font-family: 'Patrick Hand', sans-serif;
+  margin: 0 1rem;
+  letter-spacing: 0.5px;
+  line-height: 24px;
 }
 
 .nav-background img {
@@ -85,11 +86,6 @@ html, body {
 .nav-link a:hover {
 	color: #56e4e9;
 
-}
-
-p {
-  font-family: 'Patrick Hand', sans-serif;
-  margin: 0 1rem;
 }
 
 .about-text{
@@ -311,6 +307,7 @@ color: #2BA1A5;
     margin-left: 2rem;
     margin-right: 2rem;
   }
+
   .container {
     display: flex;
     flex-wrap: nowrap;
@@ -372,11 +369,18 @@ color: #2BA1A5;
   }
 
   .nav-link_large {
+    text-align: justify;
     font-size: 36px;
-    padding-left:0;
-		/*padding-top: 2rem;*/
+    padding: 0;
 		border-bottom: 1px solid white;
 		width: 100%;
+    color: #fafafa;
+  }
+
+  .nav-link_large:hover{
+    color: #2f2f2f;
+    opacity: .85;
+    transition-duration: .5s;
   }
 
   .link-border_large{
@@ -385,11 +389,6 @@ color: #2BA1A5;
 		text-decoration: none;
 
   }
-
-	/*.nav-about-large {
-		padding-top: 0;
-		margin:0
-	}*/
 
   .footer {
   	display: flex;
@@ -418,8 +417,3 @@ color: #2BA1A5;
 	.special_wrapper {
 		max-width: 50%;
 	}
-<<<<<<< HEAD
-=======
-
-}
->>>>>>> 56ad844a3a0005a5f30e6de530e5c0a4eb96e0cb
