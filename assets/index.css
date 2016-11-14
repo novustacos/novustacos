@@ -42,8 +42,6 @@ p {
 }
 
 .nav-findus {
-	border:none;
-	letter-spacing: 5px;
 }
 
 .nav-about {
@@ -56,12 +54,10 @@ p {
 
 .nav-specials {
 	font-family: 'ultimatum bold line', sans-serif;
-	letter-spacing: 5px;
 }
 
 .link-border {
 	margin: 1rem 0;
-  border-right: 1px solid white;
 }
 
 .nav-link a {
@@ -352,10 +348,20 @@ color: #2BA1A5;
     text-align: justify;
     font-size: 36px;
     padding: 0;
-		border-bottom: 1px solid white;
 		width: 100%;
     color: #fafafa;
+		vertical-align: middle;
+
   }
+
+	.nav-specials {
+		padding-top: .25rem;
+		letter-spacing: 5px;
+	}
+
+	.nav-findus {
+		letter-spacing: 2px;
+	}
 
   .link-large_hover:hover{
     color: #fafafa;
@@ -367,6 +373,8 @@ color: #2BA1A5;
     margin: 1rem 0;
 		color: #2ba1a5;
 		text-decoration: none;
+		border-bottom: 1px solid white;
+
 
   }
 
