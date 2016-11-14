@@ -40,9 +40,6 @@ p {
   text-align: center;
 }
 
-.nav-findus {
-}
-
 .nav-about {
 	font-family:'cafE & brewery', sans-serif;
 }
@@ -69,8 +66,12 @@ p {
 }
 
 .nav-link a:hover {
-	color: #56e4e9;
+	color: white;
 
+}
+.nav-link a:focus{
+  color: white;
+  outline: none;
 }
 
 .about-text{
@@ -372,9 +373,13 @@ color: #2BA1A5;
 	}
 
   .link-large_hover:hover{
-    color: #fafafa;
-    /*opacity: .85;*/
+    color: white;
     transition-duration: .2s;
+  }
+
+  .link-large_hover:focus{
+    color: white;
+    outline: none;
   }
 
   .link-border_large{
