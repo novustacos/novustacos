@@ -1,16 +1,4 @@
-@font-face {
-	font-family: 'Blern';
-	src: url('Blern.eot');
-	src: url('Blern.eot?#iefix') format('embedded-opentype'),
-		url('Blern.woff2') format('woff2'),
-		url('Blern.woff') format('woff'),
-		url('Blern.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
 html, body {
-
   font-family: 'Blern', sans-serif;
   font-size: 18px;
   box-sizing: border-box;
@@ -55,19 +43,20 @@ p {
 
 .nav-findus {
 	border:none;
+	letter-spacing: 5px;
 }
 
 .nav-about {
-	font-family:'Signika:300', sans-serif;
+	font-family:'cafE & brewery', sans-serif;
 }
 
 .nav-menu {
-	font-family:'Times New Roman', sans-serif;
-	font-size: 22px;
+	font-family:'Durum Kebab', sans-serif;
 }
 
 .nav-specials {
-	font-family: 'Patrick Hand', sans-serif;
+	font-family: 'ultimatum bold line', sans-serif;
+	letter-spacing: 5px;
 }
 
 .link-border {
